@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>開放資源 · 江柏翰實驗室</title>
+<meta name="description" content="江柏翰實驗室的開源磁刺激系統、CoilDesignTool、PHCSSM 程式碼與 BeatTheFly。">
+<meta property="og:title" content="開放資源 · 江柏翰實驗室">
+<meta property="og:description" content="江柏翰實驗室的開源磁刺激系統、CoilDesignTool、PHCSSM 程式碼與 BeatTheFly。">
+<meta property="og:image" content="https://chianglab.com/img/research/magties-cover.jpg">
+<link rel="alternate" hreflang="en" href="https://chianglab.com/resources/">
+<link rel="alternate" hreflang="zh-Hant" href="https://chianglab.com/zh-TW/resources/">
+<link rel="icon" href="../../img/favicon.png">
+<link rel="stylesheet" href="../../assets/site.css">
+<script>try{const t=localStorage.getItem("chianglab-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../../zh-TW/"><img src="../../img/logo.png" alt="" width="38" height="38"><span><b>Chiang Lab</b><span>神經調控與神經形態運算</span></span></a>
+  <nav class="nav" id="nav" aria-label="Main"><a href="../../zh-TW/research/">研究</a><a href="../../zh-TW/people/">成員</a><a href="../../zh-TW/publications/">論文</a><a href="../../zh-TW/resources/" aria-current="page">開放資源</a><a href="../../zh-TW/teaching/">教學</a><a href="../../zh-TW/join/">加入我們</a></nav>
+  <a class="icon-btn lang" href="../../resources/" hreflang="en" aria-label="Switch to English">EN</a>
+  <button class="icon-btn" id="theme" type="button" aria-label="切換深色或淺色">◐</button>
+  <button class="icon-btn" id="menu" type="button" aria-label="選單" aria-expanded="false" aria-controls="nav">☰</button>
+</div></header>
+<main>
+<div class="wrap page-head"><p class="eyebrow">開放資源</p><h1>開源硬體、軟體與工具</h1>
+<p class="lead">這些都來自我們的研究。各項資源的授權條款不同，使用前請先確認；如果對你的研究有幫助，請引用對應的論文。</p></div>
+<section style="padding-top:20px"><div class="wrap grid two">
+  <a class="card" href="https://magneticsystem.chianglab.com/"><span class="tag">硬體與程式</span><h3>開源無線神經調控磁刺激系統</h3><p>可用於體外神經調控與活體無線腦刺激的磁刺激系統，提供 CAD 模型、Python 控制程式與逐步組裝指南。</p><p style="font-size:.85rem">Huang, Yen, Cheng, Fang &amp; Chiang. <i>Scientific Reports</i> 15, 17814 (2025).</p><span class="more">專案網頁 →</span></a>
+  <a class="card" href="https://tools.chianglab.com/coildesigntool/"><span class="tag">網頁工具</span><h3>CoilDesignTool</h3><p>在瀏覽器裡設計與最佳化螺線管：依目標磁場計算電流、電壓與功率，產生 2D 磁場分布、參數掃描，並匯出 FEMM 4.2 腳本驗證。支援 16 種語言。</p><span class="more">開啟工具 →</span></a>
+  <a class="card" href="https://github.com/phclab/magnetic_system"><span class="tag">GitHub</span><h3>magnetic_system 程式庫</h3><p>開源磁刺激系統的原始檔案。</p><span class="more">GitHub →</span></a>
+  <a class="card" href="https://github.com/phclab/PHCSSM"><span class="tag">程式碼</span><h3>PHCSSM</h3><p>平行化階層連接體（Parallelized Hierarchical Connectome）的參考實作：在完全平行化的遞迴中保留生物限制的脈衝狀態空間模型。可用來分析時間序列資料（例如 EEG）、建構語言模型，或訓練依真實連接體重建的腦神經迴路。</p><p style="font-size:.85rem">Chiang. <i>Array</i>, 101315 (2026).</p><p style="font-size:.85rem"><b>授權：</b>PolyForm Noncommercial 1.0.0，僅限非商業用途。專利申請中，商業授權請洽陽明交大產學創新處。</p><span class="more">GitHub →</span></a>
+  <a class="card" href="/BeatTheFly/"><span class="tag">線上遊戲</span><h3>BeatTheFly</h3><p>和依果蠅連接體（MaleCNS）接線的脈衝神經網路下西洋棋、黑白棋或玩 Pong。訓練好的權重放在 Hugging Face。</p><span class="more">開始玩 →</span></a>
+  <a class="card" href="https://huggingface.co/phclab"><span class="tag">模型</span><h3>Hugging Face</h3><p>BeatTheFly 各腦區訓練後的突觸權重。</p><span class="more">Hugging Face →</span></a>
+</div></section>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <div><b>江柏翰實驗室 · 神經調控與神經形態運算</b><br>國立陽明交通大學 電機學院<br>腦科技跨領域工程碩士學位學程<br>智慧醫電工程研究所<br>實驗室：光復校區 工程六館 555B<br>博愛校區 書田館 301B</div>
+  <div><b>聯絡</b><ul>
+    <li>phc (at) nycu.edu.tw</li>
+    <li><a href="https://scholar.google.com/citations?user=J-jGDFcAAAAJ">Google Scholar</a></li>
+    <li><a href="https://github.com/phclab">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/pohanc/">LinkedIn</a></li>
+    <li><a href="https://www.facebook.com/ChiangLab-1287645511374870/">Facebook</a></li></ul></div>
+  <div><b>開放資源</b><ul>
+    <li><a href="https://magneticsystem.chianglab.com/">開源磁刺激系統</a></li>
+    <li><a href="https://tools.chianglab.com/coildesigntool/">CoilDesignTool</a></li>
+    <li><a href="/class/">神經科學互動教室</a></li>
+    <li><a href="/BeatTheFly/">BeatTheFly</a></li></ul></div>
+  <div class="copy">© 2019–2026 江柏翰實驗室，國立陽明交通大學。版權所有。</div>
+</div></footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
